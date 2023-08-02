@@ -14,16 +14,16 @@
           "op": "execute-notebook-node",
           "app_data": {
             "component_parameters": {
-              "filename": "load_data.ipynb",
-              "runtime_image": "docker.io/amancevice/pandas:1.1.1",
+              "dependencies": [],
+              "include_subdirectories": false,
               "outputs": [
                 "data/noaa-weather-data-jfk-airport/jfk_weather.csv"
               ],
               "env_vars": [
                 "DATASET_URL=https://dax-cdn.cdn.appdomain.cloud/dax-noaa-weather-data-jfk-airport/1.1.4/noaa-weather-data-jfk-airport.tar.gz"
               ],
-              "dependencies": [],
-              "include_subdirectories": false
+              "filename": "load_data.ipynb",
+              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
             },
             "label": "Load weather data",
             "ui_data": {
@@ -69,14 +69,14 @@
           "op": "execute-notebook-node",
           "app_data": {
             "component_parameters": {
-              "filename": "Part 1 - Data Cleaning.ipynb",
-              "runtime_image": "docker.io/amancevice/pandas:1.1.1",
+              "dependencies": [],
+              "include_subdirectories": false,
               "outputs": [
                 "data/noaa-weather-data-jfk-airport/jfk_weather_cleaned.csv"
               ],
               "env_vars": [],
-              "dependencies": [],
-              "include_subdirectories": false
+              "filename": "Part 1 - Data Cleaning.ipynb",
+              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
             },
             "label": "",
             "ui_data": {
@@ -129,12 +129,12 @@
           "op": "execute-notebook-node",
           "app_data": {
             "component_parameters": {
-              "filename": "Part 2 - Data Analysis.ipynb",
-              "runtime_image": "docker.io/amancevice/pandas:1.1.1",
+              "dependencies": [],
+              "include_subdirectories": false,
               "outputs": [],
               "env_vars": [],
-              "dependencies": [],
-              "include_subdirectories": false
+              "filename": "Part 2 - Data Analysis.ipynb",
+              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
             },
             "label": "",
             "ui_data": {
@@ -187,12 +187,12 @@
           "op": "execute-notebook-node",
           "app_data": {
             "component_parameters": {
-              "filename": "Part 3 - Time Series Forecasting.ipynb",
-              "runtime_image": "docker.io/amancevice/pandas:1.1.1",
+              "dependencies": [],
+              "include_subdirectories": false,
               "outputs": [],
               "env_vars": [],
-              "dependencies": [],
-              "include_subdirectories": false
+              "filename": "Part 3 - Time Series Forecasting.ipynb",
+              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
             },
             "label": "",
             "ui_data": {
