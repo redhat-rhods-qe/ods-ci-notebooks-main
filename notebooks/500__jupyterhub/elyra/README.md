@@ -23,8 +23,13 @@ NOTE: This is an reference of (https://github.com/elyra-ai/examples)
 This repository provides a set of examples that explore some of the unique
 features provided by Elyra. All examples require Elyra version 3.x.
 
-Examples for earlier releases:
- - [`v2.2.x`](https://github.com/elyra-ai/examples/tree/v2.2.x)
+
+* Disconnected: This directory contains code which doesnt have the download of data, the data is present with it.
+  * Please include PIP_INDEX_URL, PIP_TRUSTED_HOST, SSL_CERT_FILE to the pipeline properties.
+    * PIP_INDEX_URL: Base URL of the Python Package Index.
+    * PIP_TRUSTED_HOST: Mark this host or host:port pair as trusted.
+    * SSL_CERT_FILE: <file> where Storage certs are included.
+  * ![Alt text](./pipeline_default.png "Pipeline")
 
 ## Pipelines
 
