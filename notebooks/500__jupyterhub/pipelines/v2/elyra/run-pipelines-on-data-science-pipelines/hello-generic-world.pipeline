@@ -22,15 +22,20 @@
               "env_vars": [
                 "DATASET_URL=https://dax-cdn.cdn.appdomain.cloud/dax-noaa-weather-data-jfk-airport/1.1.4/noaa-weather-data-jfk-airport.tar.gz"
               ],
+              "kubernetes_pod_annotations": [],
+              "kubernetes_pod_labels": [],
+              "kubernetes_secrets": [],
+              "kubernetes_shared_mem_size": {},
+              "kubernetes_tolerations": [],
+              "mounted_volumes": [],
               "filename": "load_data.ipynb",
-              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
+              "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
             "label": "Load weather data",
             "ui_data": {
               "label": "Load weather data",
-              "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20viewBox%3D%220%200%2022%2022%22%3E%0A%20%20%3Cg%20class%3D%22jp-icon-warn0%20jp-icon-selectable%22%20fill%3D%22%23EF6C00%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18.7%203.3v15.4H3.3V3.3h15.4m1.5-1.5H1.8v18.3h18.3l.1-18.3z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M16.5%2016.5l-5.4-4.3-5.6%204.3v-11h11z%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A",
               "x_pos": 106,
-              "y_pos": 180.50000762939453,
+              "y_pos": 181.50000762939453,
               "description": "Run notebook file"
             }
           },
@@ -75,15 +80,20 @@
                 "data/noaa-weather-data-jfk-airport/jfk_weather_cleaned.csv"
               ],
               "env_vars": [],
+              "kubernetes_pod_annotations": [],
+              "kubernetes_pod_labels": [],
+              "kubernetes_secrets": [],
+              "kubernetes_shared_mem_size": {},
+              "kubernetes_tolerations": [],
+              "mounted_volumes": [],
               "filename": "Part 1 - Data Cleaning.ipynb",
-              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
+              "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
             "label": "",
             "ui_data": {
               "label": "Part 1 - Data Cleaning.ipynb",
-              "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20viewBox%3D%220%200%2022%2022%22%3E%0A%20%20%3Cg%20class%3D%22jp-icon-warn0%20jp-icon-selectable%22%20fill%3D%22%23EF6C00%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18.7%203.3v15.4H3.3V3.3h15.4m1.5-1.5H1.8v18.3h18.3l.1-18.3z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M16.5%2016.5l-5.4-4.3-5.6%204.3v-11h11z%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A",
               "x_pos": 383,
-              "y_pos": 180,
+              "y_pos": 179,
               "description": "Run notebook file"
             }
           },
@@ -133,13 +143,18 @@
               "include_subdirectories": false,
               "outputs": [],
               "env_vars": [],
+              "kubernetes_pod_annotations": [],
+              "kubernetes_pod_labels": [],
+              "kubernetes_secrets": [],
+              "kubernetes_shared_mem_size": {},
+              "kubernetes_tolerations": [],
+              "mounted_volumes": [],
               "filename": "Part 2 - Data Analysis.ipynb",
-              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
+              "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
             "label": "",
             "ui_data": {
               "label": "Part 2 - Data Analysis.ipynb",
-              "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20viewBox%3D%220%200%2022%2022%22%3E%0A%20%20%3Cg%20class%3D%22jp-icon-warn0%20jp-icon-selectable%22%20fill%3D%22%23EF6C00%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18.7%203.3v15.4H3.3V3.3h15.4m1.5-1.5H1.8v18.3h18.3l.1-18.3z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M16.5%2016.5l-5.4-4.3-5.6%204.3v-11h11z%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A",
               "x_pos": 657,
               "y_pos": 119.00000762939453,
               "description": "Run notebook file"
@@ -191,15 +206,20 @@
               "include_subdirectories": false,
               "outputs": [],
               "env_vars": [],
+              "kubernetes_pod_annotations": [],
+              "kubernetes_pod_labels": [],
+              "kubernetes_secrets": [],
+              "kubernetes_shared_mem_size": {},
+              "kubernetes_tolerations": [],
+              "mounted_volumes": [],
               "filename": "Part 3 - Time Series Forecasting.ipynb",
-              "runtime_image": "quay.io/modh/runtime-images@sha256:27f12a510a034212ce4d579a970cce7aeeb33ffa32044fe88a262ae15d34e763"
+              "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
             "label": "",
             "ui_data": {
               "label": "Part 3 - Time Series Forecasting.ipynb",
-              "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20viewBox%3D%220%200%2022%2022%22%3E%0A%20%20%3Cg%20class%3D%22jp-icon-warn0%20jp-icon-selectable%22%20fill%3D%22%23EF6C00%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M18.7%203.3v15.4H3.3V3.3h15.4m1.5-1.5H1.8v18.3h18.3l.1-18.3z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M16.5%2016.5l-5.4-4.3-5.6%204.3v-11h11z%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A",
               "x_pos": 656,
-              "y_pos": 230,
+              "y_pos": 229,
               "description": "Run notebook file"
             }
           },
@@ -253,6 +273,7 @@
               "content": "Download the data",
               "associated_id_refs": [
                 {
+                  "id": "3d43a673-8877-436c-a81c-7d43e0c0f7e7",
                   "node_ref": "bb889c69-b23a-484e-8fb3-e69309f38a98"
                 }
               ]
@@ -267,6 +288,7 @@
               "content": "Clean the data",
               "associated_id_refs": [
                 {
+                  "id": "e8f94636-df44-4850-9d46-61d59ca45641",
                   "node_ref": "8c96e288-4461-4d7e-8e0d-353c1fdb0c8c"
                 }
               ]
@@ -281,6 +303,7 @@
               "content": "Analyze the data",
               "associated_id_refs": [
                 {
+                  "id": "192cb491-c4a3-46de-ac4e-ac933c75cb5a",
                   "node_ref": "dcf486ef-2d73-4306-a3ca-af720a1f8eb3"
                 }
               ]
@@ -295,6 +318,7 @@
               "content": "Explore approaches to predicting future temperatures",
               "associated_id_refs": [
                 {
+                  "id": "7de72da0-942a-4749-a67e-48a19015a781",
                   "node_ref": "1e4b1763-337e-4f84-ae9c-a6cc79a1b7eb"
                 }
               ]
@@ -306,7 +330,17 @@
         "properties": {
           "name": "hello-generic-world",
           "runtime": "Data Science Pipelines",
-          "description": "A generic pipeline tutorial"
+          "description": "A generic pipeline tutorial",
+          "pipeline_parameters": [],
+          "pipeline_defaults": {
+            "kubernetes_pod_labels": [],
+            "mounted_volumes": [],
+            "kubernetes_tolerations": [],
+            "kubernetes_pod_annotations": [],
+            "kubernetes_shared_mem_size": {},
+            "env_vars": [],
+            "kubernetes_secrets": []
+          }
         }
       },
       "runtime_ref": ""
