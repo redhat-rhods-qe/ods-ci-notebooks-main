@@ -20,7 +20,7 @@
                 "data/noaa-weather-data-jfk-airport/jfk_weather.csv"
               ],
               "env_vars": [
-                "DATASET_URL=https://github.com/redhat-rhods-qe/ods-ci-notebooks-main/blob/main/notebooks/500__jupyterhub/pipelines/v2/elyra/disconnected/run-pipelines-on-data-science-pipelines/noaa-weather-data-jfk-airport.tar.gz"
+                "DATASET_URL=https://github.com/redhat-rhods-qe/ods-ci-notebooks-main/raw/refs/heads/main/notebooks/500__jupyterhub/pipelines/v2/elyra/disconnected/run-pipelines-on-data-science-pipelines/noaa-weather-data-jfk-airport.tar.gz"
               ],
               "kubernetes_pod_annotations": [],
               "kubernetes_pod_labels": [],
