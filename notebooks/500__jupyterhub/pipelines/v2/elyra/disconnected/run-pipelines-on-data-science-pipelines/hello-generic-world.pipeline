@@ -309,7 +309,22 @@
         "properties": {
           "name": "hello-generic-world",
           "runtime": "Data Science Pipelines",
-          "description": "A generic pipeline tutorial"
+          "description": "A generic pipeline tutorial",
+          "pipeline_parameters": [],
+          "pipeline_defaults": {
+            "kubernetes_pod_labels": [],
+            "kubernetes_shared_mem_size": {},
+            "kubernetes_pod_annotations": [],
+            "mounted_volumes": [],
+            "kubernetes_tolerations": [],
+            "kubernetes_secrets": [],
+            "env_vars": [
+              {
+                "env_var": "PIP_INDEX_URL",
+                "value": "https://pypi.org/simple"
+              }
+            ]
+          }
         }
       },
       "runtime_ref": ""

@@ -341,7 +341,12 @@
             "kubernetes_tolerations": [],
             "kubernetes_pod_annotations": [],
             "kubernetes_shared_mem_size": {},
-            "env_vars": [],
+            "env_vars": [
+              {
+                "env_var": "PIP_INDEX_URL",
+                "value": "https://pypi.org/simple"
+              }
+            ],
             "kubernetes_secrets": []
           }
         }
