@@ -34,9 +34,9 @@
               "filename": "load_data.ipynb",
               "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
-            "label": "Load weather data",
+            "label": "load-weather-data",
             "ui_data": {
-              "label": "Load weather data",
+              "label": "load-weather-data",
               "x_pos": 106,
               "y_pos": 181.50000762939453,
               "description": "Run notebook file"
@@ -92,9 +92,9 @@
               "filename": "Part 1 - Data Cleaning.ipynb",
               "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
-            "label": "",
+            "label": "part-1---data-cleaning.ipynb",
             "ui_data": {
-              "label": "Part 1 - Data Cleaning.ipynb",
+              "label": "part-1---data-cleaning.ipynb",
               "x_pos": 383,
               "y_pos": 179,
               "description": "Run notebook file"
@@ -155,9 +155,9 @@
               "filename": "Part 2 - Data Analysis.ipynb",
               "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
-            "label": "",
+            "label": "part-2---data-analysis.ipynb",
             "ui_data": {
-              "label": "Part 2 - Data Analysis.ipynb",
+              "label": "part-2---data-analysis.ipynb",
               "x_pos": 657,
               "y_pos": 119.00000762939453,
               "description": "Run notebook file"
@@ -218,9 +218,9 @@
               "filename": "Part 3 - Time Series Forecasting.ipynb",
               "runtime_image": "quay.io/modh/runtime-images@sha256:46fa49d76f12b41531d831095bbd7e7136ab4af2985d21afeeca6efbc41f7d08"
             },
-            "label": "",
+            "label": "part-3---time-series-forecasting.ipynb",
             "ui_data": {
-              "label": "Part 3 - Time Series Forecasting.ipynb",
+              "label": "part-3---time-series-forecasting.ipynb",
               "x_pos": 656,
               "y_pos": 229,
               "description": "Run notebook file"
