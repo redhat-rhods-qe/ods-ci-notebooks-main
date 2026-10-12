@@ -345,6 +345,10 @@
               {
                 "env_var": "PIP_INDEX_URL",
                 "value": "https://pypi.org/simple"
+              },
+              {
+                "env_var": "PIP_EXTRA_INDEX_URL",
+                "value": "https://console.redhat.com/api/pypi/public-rhai/rhoai/3.6-EA1/cpu-ubi9/simple/"
               }
             ],
             "kubernetes_secrets": []
